@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/beijing"
+	 >
+	<LinearLayout 
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        >
+        <LinearLayout 
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        >
+
+    
+        </LinearLayout>
+    	<LinearLayout 
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:gravity="center_horizontal"
+        >
+        <EditText  android:layout_height="180px"
+            	   android:layout_width="240px"
+            	   android:hint="start"
+            	   android:id="@+id/start"
+            	   android:digits="0123456789"
+            	   android:textSize="20pt"
+           	 	   android:singleLine="true"
+            	   android:onClick="onClick_start"   
+            />
+        <EditText  android:layout_height="180px"
+            	   android:layout_width="240px"
+            	   android:hint="end"
+            	   android:id="@+id/end"
+            	   android:digits="0123456789"
+            	   android:textSize="20pt"
+            	   android:singleLine="true"
+ 				   android:onClick="onClick_end" 
+            />
+    
+        </LinearLayout>
+    	<LinearLayout 
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        >
+    
+    </LinearLayout>
+    
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="9"
+        android:gravity="center_horizontal"
+        >
+     <Button
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:id="@+id/read"
+	    android:textSize="10dip"
+	    android:onClick="onClick_read"
+	    android:text="读取数据"
+	    />
+     <Button
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:id="@+id/search"
+	    android:textSize="10dip"
+	    android:onClick="onClick_search"
+	    android:text="搜索"
+	    />
+
+     <Button
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:id="@+id/display"
+	    android:textSize="10dip"
+	    android:onClick="onClick_display"
+	   	android:text="Display"
+	    />
+     </LinearLayout>
+    
+    
+
+</LinearLayout>

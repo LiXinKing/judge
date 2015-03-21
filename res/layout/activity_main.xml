@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:id="@+id/main_liner"
+    >
+    <LinearLayout 
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content" >
+	<SeekBar android:id="@+id/seekbar1" android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:max="100"
+		android:progress="50" />
+	<SeekBar android:id="@+id/seekbar2" android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:max="100"
+		android:progress="50" />
+	<SeekBar android:id="@+id/seekbar3" android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:max="100"
+		android:progress="50" />
+	<SeekBar android:id="@+id/seekbar4" android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:max="100"
+		android:progress="50" />
+	</LinearLayout>
+	<LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        >
+		<LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        >
+        	<TextView 
+    	  	 android:id="@+id/txtacc"
+    	    android:layout_width="wrap_content" 
+   	 	    android:layout_height="wrap_content"
+   	 	    android:paddingLeft="10dp"
+    	    android:textSize="14dip"
+    	    />
+
+	
+		</LinearLayout>
+		<LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        >
+		   <TextView 
+    	   	android:id="@+id/txtg"
+    	    android:layout_width="wrap_content" 
+   	 	    android:layout_height="wrap_content"
+   	 	    android:paddingLeft="10dp"
+    	    android:textSize="14dip"
+    	    />
+
+	
+		</LinearLayout>
+	
+	</LinearLayout>
+
+</LinearLayout>
